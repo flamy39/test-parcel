@@ -1,0 +1,1 @@
+{"mappings":"AAGA;;;;AAGA","sources":["src/css/style.scss"],"sourcesContent":["$color-1 : coral;\r\n$color-2 : yellow;\r\n\r\nbody {\r\n    background-color: $color-1;\r\n}\r\nh1 {\r\n    color: $color-2;\r\n    font-size: 100px;\r\n}"],"names":[],"version":3,"file":"index.2e8c441c.css.map","sourceRoot":"/__parcel_source_root/"}
