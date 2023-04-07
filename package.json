@@ -21,8 +21,8 @@
   },
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build --dist-dir public --public-url ./",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
