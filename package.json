@@ -1,11 +1,13 @@
 {
+  "homepage": "https://flam39.github.io/test-parcel",
   "name": "javascript-parcel",
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --dist-dir public"
+    "build": "parcel build --dist-dir public",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
