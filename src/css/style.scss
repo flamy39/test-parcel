@@ -1,0 +1,10 @@
+$color-1 : coral;
+$color-2 : yellow;
+
+body {
+    background-color: $color-1;
+}
+h1 {
+    color: $color-2;
+    font-size: 100px;
+}
