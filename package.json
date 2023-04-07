@@ -4,10 +4,13 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
+  "customDistStructure": {
+    "configPath": "custom-dist-structure.config.js"
+  },
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --dist-dir public",
-    "deploy": "gh-pages -d public"
+    "build": "parcel build public",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "parcel-plugin-custom-dist-structure": "^1.1.18"
   }
 }
